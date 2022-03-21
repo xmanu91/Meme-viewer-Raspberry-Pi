@@ -3,7 +3,7 @@ const tagSelector = document.querySelector('select');
 let tag = 'all';
 
 setInterval(() => {
-  img.setAttribute('src','http://localhost:5000/')
+  img.setAttribute('src','http://randommemer.herokuapp.com/')
 }, 100000)
 
 /*tagSelector.addEventListener('change', (e) => {
