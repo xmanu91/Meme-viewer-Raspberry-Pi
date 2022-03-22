@@ -4,7 +4,7 @@ let tag = 'all';
 
 setInterval(() => {
   img.setAttribute('src','http://randommemer.herokuapp.com/')
-}, 100000)
+}, 10000)
 
 /*tagSelector.addEventListener('change', (e) => {
   if(e.target.selectedOptions[0].value != 'latest'){
